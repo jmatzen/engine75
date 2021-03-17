@@ -1,0 +1,22 @@
+[requires]
+pdqlog/0.5@jmatzen/testing
+freetype/2.10.0@bincrafters/stable
+libpng/1.6.37@bincrafters/stable
+sdl2/2.0.8@bincrafters/stable
+glm/0.9.9.4@g-truc/stable
+factory/1.15@jmatzen/release
+imgui/1.69@bincrafters/stable
+rapidjson/1.1.0@bincrafters/stable
+flatbuffers/1.11.0@jmatzen/stable
+jsonformoderncpp/3.7.0@vthiery/stable
+gtest/1.8.1@bincrafters/stable
+bullet3/2.88@bincrafters/stable
+expected-lite/0.5.0
+
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> ./bin # Copies all dll files from packages bin folder to my "bin" folder
+#lib, *.dylib* -> .
+
